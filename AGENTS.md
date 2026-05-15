@@ -14,7 +14,7 @@ This document provides AI coding agents (Gemini, Claude, Codex) with the context
 ## Setup & Build Commands
 - **Check Environment:** `go version` (Expects 1.26.1 via gvm)
 - **Download Dependencies:** `go mod download`
-- **Build Server:** `go build ./cmd/server/...`
+- **Build Server:** `go build ./cmd/autoupdate-server/...`
 - **Build Examples:** `go build ./cmd/examples/...`
 - **Run Lint (if available):** `go vet ./...`
 

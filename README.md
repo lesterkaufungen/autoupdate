@@ -163,7 +163,7 @@ The update server can be run as a standalone service or embedded into your exist
 Install the pre-built server binary directly using Go:
 
 ```bash
-go install github.com/lesterkaufungen/autoupdate/cmd/server@latest
+go install github.com/lesterkaufungen/autoupdate/cmd/autoupdate-server@latest
 ```
 
 ### Embedding in Gin

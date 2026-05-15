@@ -17,7 +17,7 @@ npm run build
 cd ../..
 
 echo "🔨 Building server..."
-go build -o autoupdate-server ./cmd/server/main.go
+go build -o autoupdate-server ./cmd/autoupdate-server/main.go
 
 echo "🏃 Starting server on http://localhost:$PORT/ui/"
 

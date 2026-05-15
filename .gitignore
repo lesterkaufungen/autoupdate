@@ -1,5 +1,5 @@
 # Binaries
-autoupdate-server
+/autoupdate-server
 *.exe
 *.test
 binaries/
