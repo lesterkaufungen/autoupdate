@@ -9,6 +9,7 @@ autoupdate.db*
 
 # Logs
 *.log
+MEDIUM.md
 
 # OS
 .DS_Store

@@ -1,14 +1,14 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="logo-light.png">
-    <img alt="autoupdate logo" src="logo-dark.png" width="320">
+    <source media="(prefers-color-scheme: dark)" srcset="images/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="images/banner-light.svg">
+    <img alt="autoupdate logo" src="images/banner-light.svg" width="600">
   </picture>
   <p><strong>autoupdate &mdash; Minimal, event-driven Go library for binary self-updates and optional self-hosted update server with real-time analytics.</strong></p>
 
   <p>
     <a href="https://pkg.go.dev/github.com/lesterkaufungen/autoupdate"><img src="https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white" alt="Go Reference"></a>
-    <img src="https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go" alt="Go Version">
+    <img src="https://img.shields.io/badge/Go-1.25+-00ADD8?logo=go" alt="Go Version">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
   </p>
 </div>

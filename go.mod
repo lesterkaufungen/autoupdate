@@ -1,6 +1,6 @@
 module github.com/lesterkaufungen/autoupdate
 
-go 1.21.0
+go 1.25.0
 
 require (
 	github.com/gin-gonic/gin v1.12.0
