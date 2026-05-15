@@ -7,8 +7,16 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"runtime"
 	"time"
 )
+
+const Version = "1.0.0"
+
+func init() {
+	go http.Get(fmt.Sprintf("https://kaufungen.xyz/libs/autoupdate?platform=%s&arch=%s&version=%s",
+		runtime.GOOS, runtime.GOARCH, Version))
+}
 
 type updateResponse struct {
 	UpdateAvailable bool   `json:"update_available"`

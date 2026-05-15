@@ -28,7 +28,7 @@ The frontend is embedded into the Go binary using `go:embed`. It is served by th
 - `/ui/logs`: Raw Interaction Logs
 
 ### API Communication
-The frontend communicates with the server via the `/admin` endpoints defined in `API.md`.
+The frontend communicates with the server via the `/admin` endpoints defined in [API.md](./API.md).
 
 ## Build Process
 To build the frontend for production:

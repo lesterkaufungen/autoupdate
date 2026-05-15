@@ -105,6 +105,20 @@ go get github.com/lesterkaufungen/autoupdate
 
 ---
 
+## 📚 Documentation
+
+Detailed documentation for various parts of the project:
+
+- **[Usage Guide (USAGE.md)](./docs/USAGE.md)**: Comprehensive guide with examples for integrating the `autoupdate` library and setting up the server.
+- **[REST API Reference (API.md)](./docs/API.md)**: Detailed specification of the HTTP API provided by the update server.
+- **[Dashboard Reference (DASHBOARD.md)](./docs/DASHBOARD.md)**: Overview of the built-in management dashboard and its features.
+- **[Frontend Specification (FRONTEND.md)](./docs/FRONTEND.md)**: Technical details about the Svelte-based management UI and its build process.
+- **[AI Agent Context (AGENTS.md)](./AGENTS.md)**: Instructions and context for AI coding agents working on this codebase.
+- **[Gemini Guidelines (GEMINI.md)](./GEMINI.md)**: Specialized instructions for the Gemini CLI agent.
+- **[Claude Guidelines (CLAUDE.md)](./CLAUDE.md)**: Best practices and guidelines for using Claude with this project.
+
+---
+
 ## 📖 Library Usage
 
 ### 1. Self-Update (GitHub)
